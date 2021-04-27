@@ -1,0 +1,31 @@
+name: ck_sms_plugin_example
+description: Demonstrates how to use the ck_sms_plugin plugin.
+publish_to: none
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ck_sms_plugin:
+    path: ../
+  cupertino_icons: ^0.1.3
+  device_info: ^0.4.2+4
+  http: ^0.12.0+4
+  path_provider: ^1.6.7
+  rxdart: ^0.24.0
+  shared_preferences: ^0.5.7
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter 
+  integration_test: ^1.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - icons/
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+  flutter: ">=1.12.13+hotfix.5"
